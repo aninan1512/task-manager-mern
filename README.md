@@ -63,6 +63,7 @@ task-manager/
 ```bash
 git clone https://github.com/<your-username>/task-manager-mern.git
 cd task-manager-mern
+
 2️⃣ Backend Setup
 cd backend
 npm install
@@ -99,9 +100,7 @@ GET	   /api/tasks	Fetch all tasks
 POST	/api/tasks	Create a new task
 PATCH	/api/tasks/:id	Toggle task completion
 DELETE	/api/tasks/:id	Delete a task
-## 📸 Screenshots
 
-![Task Manager UI](./screenshots/task-manager-ui.png)
 🔮 Future Improvements
 
 User authentication (JWT)
